@@ -1,0 +1,11 @@
+asgiref==3.2.10
+Django==3.0.8
+django-filter==2.3.0
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+mysql-connector-python==8.0.21
+mysqlclient @ file:///C:/Users/ui8yh/Downloads/mysqlclient-1.4.6-cp37-cp37m-win32.whl
+protobuf==3.12.2
+pytz==2020.1
+six==1.15.0
+sqlparse==0.3.1
