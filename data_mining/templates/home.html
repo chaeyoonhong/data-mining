@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hot keyword</title>
+
+</head>
+Hexlant
+<center>
+<body style="background-color:powderblue">
+        <h1>HOT KEYWORD</h1>
+        <hr/><hr/>
+    <form method ="POST" action="">
+        {% csrf_token %}
+    <div class="form-group" >
+        <label for="field" class="col-md-3 control-label">Input Field</label>
+        <form method ='POST'>
+             {% csrf_token %}
+            {{form}}
+        </form>
+    </select>
+        <label for="site" class="col-md-3 control-label">Input Site</label>
+        <select name="site">
+        <option>사이트를 선택하세요</option>
+            {%for site in sites%}
+            <option>{{site}}</option>
+            {%endfor%}
+            <option>전체</option>
+
+    </select>
+        <table>
+            <label for="first_date" class="col-md-3 control-label">Input First Date</label>
+            <tr><input type="date" name="first_date"></tr>
+            <label for="last_date" class="col-md-3 control-label">Input Last Date</label>
+            <tr><input type="date" name="last_date"></tr>
+        </table>
+        <button type ='submit' name='search' class ='btn btn-danger'>Search</button>
+</div>
+    <form/>
+        <h3>{{word}}</h3>
+        <table>
+        {%for data in rank%}
+           <tr>
+               <td>{{data}}  </td>
+           </tr>
+        {%endfor%}
+        </table>
+    </body>
+</center>
+</html>
