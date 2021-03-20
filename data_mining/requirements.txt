@@ -1,7 +1,7 @@
 asgiref==3.2.10
 Django==3.0.8
 django-filter==2.3.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 mysql-connector-python==8.0.21
 mysqlclient @ file:///C:/Users/ui8yh/Downloads/mysqlclient-1.4.6-cp37-cp37m-win32.whl
